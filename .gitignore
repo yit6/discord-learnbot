@@ -102,3 +102,6 @@ dist
 
 # TernJS port file
 .tern-port
+
+#where key is kept
+config.json
