@@ -1,0 +1,9 @@
+{
+	"question":"fins",
+	"yes":"fish",
+	"no":{
+		"question":"tail",
+		"yes":"cat",
+		"no":"person"
+	}
+}
