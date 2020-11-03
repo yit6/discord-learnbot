@@ -12,7 +12,11 @@ var added;
 var animal;
 client.on('message', message => {
 	if (message.author.bot)	return;
-	if (mode == 0) {
+	if (message.content=='reset') {
+		db = orig;
+		mode = 0;
+	}
+	else if (mode == 0) {
 		if (message.content=='hello') {
 			message.channel.send(db.question);
 		}
@@ -70,9 +74,6 @@ client.on('message', message => {
 	}
 	if (message.content=='debug') {
 		message.channel.send(JSON.stringify(db));
-	}
-	if (message.content=='reset') {
-		db = orig;
 	}
 });
 client.login(config.token);
