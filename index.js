@@ -121,7 +121,7 @@ client.on('message', message => {
     }
 
     /**
-     * Mode 2: prompts the users in a Discord chat to enter the animal they were thinking of.
+     * Mode 2: prompts the users in a Discord chat to enter a question to tell the difference between the animals.
      */
     else if (mode === 2) {
         added = { question: message.content };
@@ -130,7 +130,7 @@ client.on('message', message => {
     }
 
     /**
-     * Mode 3: IDK
+     * Mode 3: asks the chat answers for the question.
      */
     else if (mode === 3) {
         /**
