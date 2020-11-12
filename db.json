@@ -1,13 +1,1 @@
-{
-     "question": "Does it have fins",
-     "yes": {
-        "question": "Does it have a tail",
-        "yes": "eel",
-        "no": "fish"
-   },
-     "no": {
-          "question": "Does it have a tail",
-          "yes": "cat",
-          "no": "person"
-     }
-}
+{"question":"Does it have fins","yes":{"question":"Does it have a tail","yes":"eel","no":"fish"},"no":{"question":"Does it have a tail","yes":"cat","no":{"question":"does it fly?","yes":"seagull","no":{"question":"Is it green?","yes":"turtle","no":"person"}}}}

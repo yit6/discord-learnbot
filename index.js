@@ -168,7 +168,7 @@ client.on('message', message => {
         /**
          * Writes the updated database of animals to a JSON file.
          */
-        const DATABASE_FILE = fs.createWriteStream('./db.test.json');
+        const DATABASE_FILE = fs.createWriteStream('./db.json');
         DATABASE_FILE.write(JSON.stringify(CURR_DB));
         DATABASE_FILE.close();
 
