@@ -1,8 +1,8 @@
 {
-	"question":"fins",
+	"question":"Does it have fins",
 	"yes":"fish",
 	"no":{
-		"question":"tail",
+		"question":"Does it have a tail",
 		"yes":"cat",
 		"no":"person"
 	}
